@@ -1,0 +1,129 @@
+body, ul, li, a{
+margin: 0;
+padding: 0;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: 13px;
+}
+
+header{
+background-color: #b19898;
+padding: 5px;
+text-align: center;
+position: fixed;
+width: 100%;
+z-index: 1;
+top: 0;
+left: 0;
+}
+
+header h1{
+color: whitesmoke;
+font-size: 20px;
+}
+
+.banner{
+    max-width: 100%;
+    background-color: #d1babc;
+    position: relative;
+    left: 0px;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+  }
+  
+.banner .picture{
+    color: whitesmoke;
+    background-color: #b19898;
+    position: absolute;
+    padding: 18px;
+    left: 10px;
+    top: 68%;
+}
+
+nav{
+    background-color: #b19898;
+    padding: 7px;
+    position: sticky;
+    top: 60px;
+}
+nav ul{
+    white-space: nowrap;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+nav li{
+    width: 32%;
+    display: inline-block;
+    font-size: 15px;
+    text-align: center;
+}
+nav li a{
+    text-decoration: none;
+    color: #303030;
+}
+
+h1, h2, h3{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+
+main{
+max-width: 100%;
+width: 1200px;
+margin: 70px auto;
+padding: 0 40px;
+box-sizing: border-box;
+}
+article p{
+    color: #303030;
+    line-height: 1.5em;
+}
+.links{
+    background: #b19898;
+    color: whitesmoke;
+    text-align: center;
+    padding: 70px;
+    font-size: 14px;
+}
+.links li{
+    white-space: nowrap;
+    max-width: 1200px;
+    margin: 19px;
+    list-style: none;
+    color: #303030;
+}
+
+.images{
+    text-align: center;
+    margin: 80px 0;
+    white-space: nowrap;
+}
+.images li{
+    display: inline-block;
+    width: 40%;
+    margin: 10px;
+}
+.images li img{
+    max-width: 100%;
+}
+.subscribe{
+    background: #d1babc;
+    text-align: center;
+    padding: 60px 10px;
+    color: #303030;
+}
+form input{
+    margin: 18px;
+    padding: 10px 20px;
+    font-size: 13px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 28px;
+    border: 2px solid grey;
+}
+footer{
+    background: #b19898;
+    color: whitesmoke;
+    padding: 7px;
+    text-align: center;
+}
